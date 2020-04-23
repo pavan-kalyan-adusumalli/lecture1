@@ -1,0 +1,29 @@
+<!DOCTYPE html><!--css selector-->
+<html>
+    <head>
+        <title>multiple.html</title>
+        <style>
+            ol > li{
+                color:red;
+            }
+        </style>
+        <!-- > symbol in css used to represent immediate children 
+        in the above case it indicates the immediate list items of ordered list-->
+    </head>
+    <body>
+        <ol>
+            <li>first item</li>
+            <li>second item</li>
+            <ul>
+                <li>first item inside third parent</li>
+                <li>second one inside third parent</li>
+            </ul>
+            <li>fourth item</li>
+        </ol>
+
+        <ul>
+            <li>first item</li>
+            <li>second item</li>
+        </ul>
+    </body>
+</html>
