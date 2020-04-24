@@ -6,6 +6,9 @@
             ol > li{
                 color:red;
             }
+            div > p{
+                color:green;
+            }
         </style>
         <!-- > symbol in css used to represent immediate children 
         in the above case it indicates the immediate list items of ordered list-->
@@ -25,5 +28,13 @@
             <li>first item</li>
             <li>second item</li>
         </ul>
+
+        <div>
+            <p>this is paragraph</p>
+            <div>
+                this is division
+                <p>para inside division this is immediate branch of div, so works!!</p>
+            </div>
+        </div>
     </body>
 </html>

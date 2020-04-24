@@ -3,18 +3,31 @@
     <head>
         <title>multiple.html</title>
         <style>
-            button{
+            .button{
                 width:200px;
                 height:60px;
                 background-color: red;
             }
-            button:hover{
+            .button:hover{
                 background-color: yellow;
+            }
+            input{
+                width:200px;
+                height:60px;
+                background-color: blue;
+            }
+            input:hover{
+                color:blue;
+                background-color: red;
             }
         </style>
 
     </head>
     <body>
-        <button>clickme</button>
+        <button class="button">clickme</button>
+        <button class="button">clickme</button>
+        <button class="button">clickme</button>
+
+        <input name="name" type="text" placeholder="enter your naem" id="input">
     </body>
 </html>
